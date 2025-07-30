@@ -1,19 +1,15 @@
-# random-password-generator
-A simple Python script to generate secure, customizable passwords using random letters, digits, and symbols. It uses the random and string modules to create strong passwords based on user-defined character counts. Great for quick, secure password creation from the command line.
+🔐 Random Password Generator
 
-🔐 Random Password Generator in Python
-A random password generator is a simple program that creates secure, random passwords by combining letters, digits, and symbols. Using Python’s built-in random and string modules, you can:
+A simple and customizable Python program that generates secure passwords using random letters, digits, and symbols. Ideal for creating strong, unpredictable passwords for websites, apps, or personal use. Built with Python’s `random` and `string` modules and runs directly in the terminal.
 
-Let the user choose how many letters, digits, and symbols they want.
+✨ Features
 
-Use:
+✔ Custom Character Counts – Choose how many letters, digits, and symbols to include
+✔ Secure Generation – Uses `random.choices()` and `shuffle()` for strong entropy
+✔ Full Character Support – Mixes uppercase, lowercase, numbers, and special symbols
+✔ Instant Output – Generates a ready-to-use password in seconds
+✔ Clean & Minimal – Easy-to-understand script for beginners or quick tools
 
-string.ascii_letters for A–Z and a–z
 
-string.digits for 0–9
+You’ll be prompted to enter how many letters, digits, and symbols you want. The script will generate and print a secure password based on your input.
 
-A custom string like "@#$*/_" for symbols
-
-Use random.choices() to pick random characters from each group.
-
-Combine all characters, shuffle them, and use ''.join() to make a final password string.
